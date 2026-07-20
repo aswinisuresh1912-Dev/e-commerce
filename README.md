@@ -1,23 +1,41 @@
-# React
-frontend/node_modules/
-frontend/dist/
+# CartiFY
 
-# Python
-backend/__pycache__/
-*.pyc
+CartiFY is a full-stack e-commerce web application that allows users to browse products, add items to a shopping cart, update quantities, remove products, and place orders.
 
-# Database
-*.db
-backend/instance/
+## Features
 
-# Environment files
-.env
-.env.*
+- Product listing
+- Product images
+- Product categories
+- Add products to cart
+- Increase and decrease product quantity
+- Remove products from cart
+- Automatic total price calculation
+- Checkout form
+- Place orders
+- Order details stored in the backend
+- Responsive user interface
+- Hover effects and smooth transitions
 
-# Editor files
-.vscode/
-.idea/
+## Technologies Used
 
-# System files
-.DS_Store
-Thumbs.db
+### Frontend
+- React
+- Vite
+- CSS
+
+### Backend
+- Python
+- Flask
+- SQLite
+- SQLAlchemy
+- Flask-CORS
+
+## How to Run
+
+### Backend
+
+```bash
+cd backend
+pip install flask flask-sqlalchemy flask-cors
+python app.py
